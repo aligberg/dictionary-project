@@ -23,13 +23,17 @@ export default function Dictionary() {
 
   return (
   <div>
-    <div className="row">
-      <form className="text-center my-4" onSubmit={search}>
-        <input className="search-bar col-auto py-1" type="search" placeholder="Type a word..." onChange={handleKeyword} autoFocus={false}></input>
-        <button className="btn btn-outline-secondary col-auto" type="submit">Search</button>
-      </form>
-    </div>
-    <Results results={results} />
+    <form id="search" onSubmit={search}>
+      <div className="row search-bar">
+          <div className="text-center col-10 bar">
+            <input className="form-control search" type="search" placeholder="Type a word..." onChange={handleKeyword} autoFocus={false}></input>
+          </div>
+          <div className="col-auto">
+            <button className="btn btn-outline-secondary" type="submit">Search</button>
+          </div>
+        </div>
+    </form>
+      <Results results={results} /> 
   </div>
   );
 }

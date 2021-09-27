@@ -1,4 +1,11 @@
 .search-bar {
-  margin-right: 5px;
-  width: 300px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.search {
+  border-radius: 18px;
+}
+.btn {
+  border-radius: 18px;
 }
