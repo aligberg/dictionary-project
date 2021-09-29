@@ -1,9 +1,9 @@
 .container {
-  width: 680px;
+  width: 700px;
   padding: 20px 20px;
-  margin-top: 80px;
-
+  margin-top: 60px;
 }
 h1 {
-  font-family: 'DM Serif Display', serif;;
+  font-family: 'DM Serif Display', serif;
+  font-size: 55px;
 }
