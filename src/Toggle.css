@@ -6,5 +6,5 @@
   margin-left: 10px;
 }
 .toggle button:hover {
-  opacity: 75%;
+  background: red;
 }
