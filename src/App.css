@@ -1,3 +1,41 @@
+body {
+  background: #1f2933;
+  color: #cbd2d9;
+  }
+  a {
+    color: #00abcc;
+  }
+  a:hover{
+    color:#e4e7eb; 
+  }
+  @media (min-width: 900px) {
+    .container {
+    border: 1px solid rgb(203, 210, 217);
+    }
+    .lightMode .container {
+    border: 1px solid #1f2933;
+    }
+  }
+  
+  .searchButton {
+    color: #cbd2d9;
+  }
+  .lightMode {
+    background: #cbd2d9;
+    color: #1f2933;
+  }
+  .lightMode a:hover{
+    color: #616e7c;
+  }
+  .lightMode .searchButton {
+    color: #1f2933;
+    border: 1px solid #1f2933;
+  }
+  .lightMode .searchButton:hover{
+    color: #e4e7eb;
+    border: none;
+  }
+
 .container {
   padding: 40px 60px;
   border-radius: 12px;
