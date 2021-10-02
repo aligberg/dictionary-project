@@ -1,9 +1,8 @@
 .container {
   padding: 40px 60px;
   border-radius: 12px;
+  margin: 0 auto;
   margin-top: -50px;
-  margin-left: 84px;
-  margin-right: 84px;
 }
 h1 {
   font-family: 'DM Serif Display', serif;
