@@ -6,5 +6,6 @@
   margin-left: 10px;
 }
 .toggle button:hover {
-  background: red;
+  transform: translatey(-2px);
+  transition: 0.25s ease;
 }
