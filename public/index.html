@@ -27,18 +27,21 @@
       a:hover{
         color:#e4e7eb; 
       }
-      .container {
+      @media (min-width: 900px) {
+        .container {
         border: 1px solid rgb(203, 210, 217);
+        }
+        .lightMode .container {
+        border: 1px solid #1f2933;
+        }
       }
+      
       .searchButton {
         color: #cbd2d9;
       }
       .lightMode {
         background: #cbd2d9;
         color: #1f2933;
-      }
-      .lightMode .container {
-       border: 1px solid #1f2933;
       }
       .lightMode a:hover{
         color: #616e7c;
