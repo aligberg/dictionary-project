@@ -9,6 +9,3 @@
 .Meaning p {
   font-size: 16px;
 }
-.Meaning p::first-letter{
-  text-transform: capitalize;
-}
