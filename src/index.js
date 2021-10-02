@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./App.css";
+import "./Meaning.css";
+import "./Dictionary.css";
+import "./Phonetics.css";
+import "./Photos.css";
+import "./Results.css";
+import "./Synonyms.css";
+import "./Toggle.css";
+
 
 ReactDOM.render(
   <React.StrictMode>
