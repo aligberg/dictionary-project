@@ -2,10 +2,10 @@ body {
   background: #1f2933;
   color: #cbd2d9;
   }
-  a {
+a {
     color: #00abcc;
   }
-  a:hover{
+a:hover{
     color:#e4e7eb; 
   }
   @media (min-width: 900px) {
@@ -17,21 +17,21 @@ body {
     }
   }
   
-  .searchButton {
+.searchButton {
     color: #cbd2d9;
   }
-  .lightMode {
+.lightMode {
     background: #cbd2d9;
     color: #1f2933;
-  }
-  .lightMode a:hover{
+}
+.lightMode a:hover{
     color: #616e7c;
   }
-  .lightMode .searchButton {
+.lightMode .searchButton {
     color: #1f2933;
     border: 1px solid #1f2933;
   }
-  .lightMode .searchButton:hover{
+.lightMode .searchButton:hover{
     color: #e4e7eb;
     border: none;
   }
@@ -43,7 +43,7 @@ body {
   margin-top: -50px;
   max-width: 1000px;
 }
-h1 {
+.App h1 {
   font-family: 'DM Serif Display', serif;
   font-size: 65px;
 }

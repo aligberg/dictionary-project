@@ -4,8 +4,7 @@
   font-size: 45px;
   margin-top: 5px;
   margin-left: 10px;
-  display: inline-block;
 }
-button:hover {
+.toggle button:hover {
   opacity: 75%;
 }
