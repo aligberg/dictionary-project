@@ -1,0 +1,9 @@
+.Phonetics a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Phonetics {
+  height: 60px;
+  font-size: 16px;
+}

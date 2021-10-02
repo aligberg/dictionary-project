@@ -1,0 +1,13 @@
+.Meaning {
+  margin-top: 20px;
+}
+.Meaning h4 {
+  font-size: 25px;
+}
+.Meaning p {
+  font-size: 16px;
+}
+li {
+  display: inline-block;
+  padding-right: 10px;
+}

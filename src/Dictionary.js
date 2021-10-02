@@ -30,19 +30,19 @@ export default function Dictionary(props) {
   }
   if (loaded) {
     return (
-      <div>
+      <section>
         <form id="search" onSubmit={handleSubmit}>
           <div className="row search-bar">
             <div className="text-center col-10 bar">
               <input className="form-control search" type="search" placeholder="Type a word..." onChange={handleKeyword} autoFocus={false}></input>
             </div>
-            <div className="col-auto">
-              <button className="btn btn-outline-secondary" type="submit">Search</button>
+            <div className="col-2">
+              <button className="btn btn-outline-secondary searchButton" type="submit">Search</button>
             </div>
           </div>
         </form>
         <Results results={results} />
-      </div>
+      </section>
     );
   } else {
     load()

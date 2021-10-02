@@ -1,7 +1,9 @@
 .toggle button {
   border: none;
   background: none;
-  font-size: 30px;
-  margin: 5px;
+  font-size: 45px;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: inline-block;
 }
  

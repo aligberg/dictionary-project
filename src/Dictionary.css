@@ -1,11 +1,12 @@
 .search-bar {
-  margin-top: 35px;
-  margin-bottom: 25px;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 
 .search {
   border-radius: 18px;
   background: #e4e7eb;
+  border: 1px solid #1f2933;
 }
 .btn {
   border-radius: 18px;

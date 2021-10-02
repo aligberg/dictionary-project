@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Toggle.css";
 
 export default function Toggle() {
-  const [mode, setMode] = useState("dark");
+  const [mode, setMode] = useState("light");
   function toLight(event) {
     event.preventDefault()
     setMode("light");
