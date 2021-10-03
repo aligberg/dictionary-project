@@ -8,7 +8,7 @@ a {
 a:hover{
     color:#e4e7eb; 
   }
-  @media (min-width: 900px) {
+  @media (min-width: 950px) {
     .container {
     border: 1px solid rgb(203, 210, 217);
     }
@@ -46,4 +46,9 @@ a:hover{
 .App h1 {
   font-family: 'DM Serif Display', serif;
   font-size: 65px;
+}
+@media (max-width: 900px) {
+  .App h1 {
+    font-size: 45px;
+  }
 }
